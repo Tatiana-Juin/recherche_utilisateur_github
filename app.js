@@ -11,6 +11,11 @@ async function dataGithub(utilisateur){
     const data = await reponse.json();
     // console.log(data);
     //APPELLLE DE LA FONCTION creationCarte
+
+    if(!reponse.ok){
+        resultat.innerHTML=`<p class="erreur"> L'utilisateur n'existe pas </p>`;
+        return;
+    }
     creationCarte(data);
 }
 
