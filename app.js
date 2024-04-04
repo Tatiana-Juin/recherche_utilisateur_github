@@ -8,14 +8,14 @@ const inp = document.querySelector(".inp-search");
 //FUNCTION ASYNCHRONE PERMETANT DE RECUPERER LES DONNES D'UN UTILISATEUR 
 async function dataGithub(utilisateur){
     const reponse = await fetch(`${API}${utilisateur}`);
-    const data = await reponse.json();
-    // console.log(data);
-    //APPELLLE DE LA FONCTION creationCarte
-
     if(!reponse.ok){
         resultat.innerHTML=`<p class="erreur"> L'utilisateur n'existe pas </p>`;
         return;
     }
+    const data = await reponse.json();
+    // console.log(data);
+   
+    //APPELLLE DE LA FONCTION creationCarte
     creationCarte(data);
 }
 

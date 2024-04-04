@@ -1,3 +1,4 @@
+/* RESET */
 *, ::before, ::after{
     box-sizing: border-box;
      margin: 0;
@@ -8,6 +9,7 @@
       font-family: Arial, Helvetica, sans-serif;
       background-color: #CDCDCD;
   }
+  /* STYLE POUR LE TITRE  */
   h1{
       font-size:35px;
       color: #f1f1f1 ;
@@ -15,7 +17,7 @@
       margin: 40px 0px 50px 0px;
       color:black;
   }
-  
+  /* STYLE POUR LE FORMULAIRE ET LA DIV RESULTAT */
   form, .resultat{
       margin: 0 auto;
       width: 50%;
@@ -23,6 +25,7 @@
       min-width: 400px;
   }
   
+  /* STYLE POUR LE CHAMP INPUT */
   input{
       display: block;
       width: 100%;
@@ -31,11 +34,14 @@
       font-size: 20px;
   
   }
-  
+
+  /* STYLE DE LA DIV CONTENANT LE RESULTAT */
   .resultat{
       display: flex;
       justify-content: center;
   }
+
+  /* STYLE DE LA CARD OU ON AFFICHE LE RESULTAT */
   .carte {
       width: 500px;
       height: auto;
@@ -46,7 +52,8 @@
       background: #f1f1f1;
       box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     }
-    
+
+    /* STYLE DE L'AVATAR GITHUB */
     .avatar {
       height: 150px;
       width: 150px;
@@ -57,25 +64,36 @@
       background: #000;
       border: 1px solid #31011f
     }
-    
+
+    /* STYLE POUR LE LOGIN */
     h2{
       margin-top: 100px;
       text-align: center;
       font-size: 25px
     }
-    
+    /* UL REGROUPANT TOUTES LES AUTRES INFO DE L'UTILISATEUR  */
     .cont-infos {
       border-top: 1px dashed #31011f;
       margin-top: 20px;
       list-style-type: none;
     }
-    
+
+    /* STYLE POUR LES FOLLOW, REPOS, BIO */
     li {
       padding: 10px 20px;
       text-align: justify;
        font-size: 22px;
     }
-    
+
+    /* STYLE POUR LE 1ER ELEMENT DU LI QUI EST followers*/
     li:nth-child(1){
       margin-top: 15px;
+    }
+
+    /* STYLE POUR LE MESSAGE ERREUR  */
+    .erreur{
+      margin-top:15px;
+      font-size:25px;
+      color:red;
+      font-weight: bolder;
     }
