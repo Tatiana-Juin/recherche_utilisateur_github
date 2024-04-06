@@ -13,14 +13,10 @@ async function dataGithub(utilisateur){
         return;
     }
     const data = await reponse.json();
-    // console.log(data);
-   
+    
     //APPELLLE DE LA FONCTION creationCarte
     creationCarte(data);
 }
-
-
-//dataGithub('Tatiana-Juin');
 
 /* 
     FONCTION createCarte() AVEC POUR PARAMETRE user. 
@@ -32,9 +28,9 @@ function creationCarte(user){
             <img src=${user.avatar_url} alt="avatar" class="avatar">
             <h2> ${user.login} </h2>
             <ul class="cont-infos">
-                <li class="follow"> Followers : ${user.followers} </li>
-                <li class="etoiles"> Repos : ${user.public_repos} </li>
-                <li class="bio"> biographie : ${user.bio} </li>
+                <li> Followers : ${user.followers} </li>
+                <li> Repos : ${user.public_repos} </li>
+                <li> biographie : ${user.bio} </li>
                 
             </ul>
         </div>

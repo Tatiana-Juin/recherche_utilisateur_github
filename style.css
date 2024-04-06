@@ -23,6 +23,7 @@
       width: 50%;
       max-width: 800px;
       min-width: 400px;
+     
   }
   
   /* STYLE POUR LE CHAMP INPUT */
@@ -32,6 +33,7 @@
       margin: 0 auto;
       padding: 15px;
       font-size: 20px;
+    
   
   }
 
@@ -51,6 +53,7 @@
       border-radius: 5px;
       background: #f1f1f1;
       box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      
     }
 
     /* STYLE DE L'AVATAR GITHUB */
@@ -62,7 +65,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background: #000;
-      border: 1px solid #31011f
+      
     }
 
     /* STYLE POUR LE LOGIN */
@@ -76,6 +79,7 @@
       border-top: 1px dashed #31011f;
       margin-top: 20px;
       list-style-type: none;
+     
     }
 
     /* STYLE POUR LES FOLLOW, REPOS, BIO */
@@ -96,4 +100,24 @@
       font-size:25px;
       color:red;
       font-weight: bolder;
+      
+    }
+
+    /* ********************* RESPONSIVE**************** */
+
+    @media screen and (max-width:700px){
+
+      /* POUR LE TITRE PRINCIPALE */
+      h1{
+        font-size:30px;
+      }
+
+      h2{
+        font-size: 22px
+      }
+
+      li{
+        font-size: 18px;
+      }
+
     }
