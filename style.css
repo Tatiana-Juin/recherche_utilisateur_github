@@ -111,13 +111,14 @@
       h1{
         font-size:30px;
       }
-
+      /* NOM DE L'UTILISATEUR  */
       h2{
         font-size: 22px
       }
-
-      li{
+      /* FOLLOWERS, REPO ET BIO AINSI QUE LE MESSAGE ERREUR  */
+      li,.erreur{
         font-size: 18px;
       }
 
+      
     }
