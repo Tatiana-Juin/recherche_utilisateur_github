@@ -27,10 +27,10 @@ function creationCarte(user){
         <div class="carte">
             <img src=${user.avatar_url} alt="avatar" class="avatar">
             <h2> ${user.login} </h2>
-            <ul class="cont-infos">
-                <li> Followers : ${user.followers} </li>
-                <li> Repos : ${user.public_repos} </li>
-                <li> biographie : ${user.bio} </li>
+            <ul class="count-infos">
+                <li> <span> Followers </span> : ${user.followers} </li>
+                <li> <span> Repos  </span> : ${user.public_repos} </li>
+                <li> <span> Biographie </span> : ${user.bio} </li>
                 
             </ul>
         </div>

@@ -77,7 +77,7 @@
       font-size: 25px
     }
     /* UL REGROUPANT TOUTES LES AUTRES INFO DE L'UTILISATEUR  */
-    .cont-infos {
+    .count-infos {
       border-top: 1px dashed #31011f;
       margin-top: 20px;
       list-style-type: none;
@@ -87,8 +87,13 @@
     /* STYLE POUR LES FOLLOW, REPOS, BIO */
     li {
       padding: 10px 20px;
-      text-align: justify;
-       font-size: 22px;
+      line-height:30px ;
+       font-size: 20px;
+    }
+    span{
+      font-size:21px;
+      text-decoration: underline;
+      
     }
 
     /* STYLE POUR LE 1ER ELEMENT DU LI QUI EST followers*/
