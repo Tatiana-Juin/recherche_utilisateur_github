@@ -9,7 +9,7 @@ const inp = document.querySelector(".inp-search");
 async function dataGithub(utilisateur){
     const reponse = await fetch(`${API}${utilisateur}`);
     if(!reponse.ok){
-        resultat.innerHTML=`<p class="erreur"> Le nom d'utilisateur saisi est introuvable . <br> Veuillez saisir un nom d'utilisateur valide. </p>`;
+        resultat.innerHTML=`<p class="erreur"> Le nom de l'utilisateur saisi est introuvable . <br> Veuillez saisir un nom d'utilisateur valide. </p>`;
         return;
     }
     const data = await reponse.json();

@@ -90,6 +90,7 @@
       line-height:30px ;
        font-size: 20px;
     }
+    
     span{
       font-size:21px;
       text-decoration: underline;
@@ -107,6 +108,7 @@
       font-size:25px;
       color:red;
       font-weight: bolder;
+      line-height:30px ;
       
     }
 
